@@ -40,7 +40,7 @@ then you will see:
 
 ```bash
 $ ls -F test
-controllers/                     helpers/                         mailers/                         fixtures/                        integration/                     models/                          test_helper.rb
+application_system_test_case.rb  helpers/                         models/                          controllers/                     integration/                     system/                          fixtures/                        mailers/                         test_helper.rb
 ```
 
 ### Test Directories
@@ -1493,7 +1493,7 @@ the default settings.
 Rails makes changing the default settings for system tests very simple. All the
 setup is abstracted away so you can focus on writing your tests.
 
-When you generate a new application or scaffold, an
+When you generate a new application, an
 `application_system_test_case.rb` file is created in the test directory. This is
 where all the configuration for your system tests should live.
 
