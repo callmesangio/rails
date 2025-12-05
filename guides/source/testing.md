@@ -1454,15 +1454,15 @@ generate system tests in two ways:
 
 1. **When scaffolding**, explicitly enable system tests:
 
-   ```bash
-   $ bin/rails generate scaffold Article title:string body:text --system-tests=true
-   ```
+    ```bash
+    $ bin/rails generate scaffold Article title:string body:text --system-tests=true
+    ```
 
 2. **Generate system tests independently** for critical features:
 
-   ```bash
-   $ bin/rails generate system_test articles
-   ```
+    ```bash
+    $ bin/rails generate system_test articles
+    ```
 
 Rails system tests are stored in the `test/system` directory in your
 application. To generate a system test skeleton, run the following command:
