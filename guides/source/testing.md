@@ -40,7 +40,7 @@ then you will see:
 
 ```bash
 $ ls -F test
-application_system_test_case.rb  controllers/  fixtures/  helpers/  integration/  mailers/  models/  system/  test_helper.rb
+controllers/  fixtures/  helpers/  integration/  mailers/  models/  test_helper.rb
 ```
 
 ### Test Directories
