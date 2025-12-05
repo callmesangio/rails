@@ -69,10 +69,10 @@ are a way of mocking up data to use in your tests, so that you don't have to use
 'real' data. They are stored in the `fixtures` directory, and you can read more
 about them in the [Fixtures](#fixtures) section below.
 
+The `test_helper.rb` file holds the default configuration for your tests.
+
 A `jobs` directory will also be created for your job tests when you first
 [generate a job](active_job_basics.html#create-the-job).
-
-The `test_helper.rb` file holds the default configuration for your tests.
 
 The `application_system_test_case.rb` file holds the default configuration for your
 system tests.
