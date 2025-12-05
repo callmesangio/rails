@@ -71,11 +71,11 @@ JavaScript as well. System tests inherit from
 [Capybara](https://github.com/teamcapybara/capybara) and perform in-browser
 tests for your application.
 
-A `jobs` directory will also be created for your job tests when you first
-[generate a job](active_job_basics.html#create-the-job).
-
 The `application_system_test_case.rb` file holds the default configuration for your
 system tests.
+
+A `jobs` directory will also be created for your job tests when you first
+[generate a job](active_job_basics.html#create-the-job).
 
 ### The Test Environment
 
