@@ -67,7 +67,7 @@ The `test_helper.rb` file holds the default configuration for your tests.
 When you first [generate system tests](#generating-system-tests), a `system`
 directory and an `application_system_test_case.rb` file will be created.
 
-The `system` test directory holds [system tests](#system-testing), which are
+The `system` directory holds [system tests](#system-testing), which are
 used for full browser testing of your application. System tests allow you to
 test your application the way your users experience it and help you test your
 JavaScript as well. System tests inherit from
