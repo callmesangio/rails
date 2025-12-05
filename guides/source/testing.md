@@ -43,7 +43,7 @@ $ ls -F test
 controllers/  fixtures/  helpers/  integration/  mailers/  models/  test_helper.rb
 ```
 
-### Test Directories
+### Test Files and Directories
 
 The `helpers`, `mailers`, and `models` directories store tests for [view
 helpers](#testing-view-helpers), [mailers](#testing-mailers), and
