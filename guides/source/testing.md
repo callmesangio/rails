@@ -1469,8 +1469,9 @@ application. To generate a system test skeleton, run the following command:
 
 ```bash
 $ bin/rails generate system_test users
-      invoke test_unit
-      create test/system/users_test.rb
+      invoke  test_unit
+      create    test/application_system_test_case.rb
+      create    test/system/users_test.rb
 ```
 
 Here's what a freshly generated system test looks like:
