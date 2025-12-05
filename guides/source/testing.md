@@ -1611,6 +1611,7 @@ command you should see:
 
 ```
       invoke  test_unit
+      create    test/application_system_test_case.rb
       create    test/system/articles_test.rb
 ```
 
